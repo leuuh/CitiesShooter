@@ -5,5 +5,5 @@ class Menu:
     def __init__(self):
         self.window = None
 
-    def run(self, ):
-        pass
+    def run(self,window ):
+        self.window = window
